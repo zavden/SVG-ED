@@ -94,17 +94,129 @@
     -->
     <h3>ARCOS</h3>
     <p>Es una porción de ellipse</p>
+    <h4>EJ-1</h4>
     <svg id="svg3" viewBox="0 0 200.5 200.5">
         <rect width="100%" height="100%" fill="url(#grid)" />
         <path d="
-                    m 10 10 h 180 v 180 h -180 z
-                    M 30 30 h 140 v 140 h -140 z
-                    M 10 10 190 190
-                    M 190 10 10 190
+                    m 80 80 
+                    a 50 50
+                      0
+                      1
+                      1
+                      50 50
                 "
               stroke="black"
               stroke-width="5"
               fill="none"        
+        />
+    </svg>
+    <h4>EJ-2</h4>
+    <svg id="svg3" viewBox="0 0 200.5 200.5">
+        <rect width="100%" height="100%" fill="url(#grid)" />
+        <path d="
+                    m 30 10
+                    h 140 
+                    a 20 20
+                      0
+                      0
+                      1
+                      20 20
+                    v 140
+                    a 20 20
+                      0
+                      0
+                      1
+                      -20 20
+                    h -140
+                    a 20 20
+                      0
+                      0
+                      1
+                      -20 -20
+                    v -140
+                    a 20 20
+                      0
+                      0
+                      1
+                      20 -20
+                "
+              stroke="#000"
+              stroke-width="5"
+              fill="none"        
+        />
+    </svg>
+    <h3>Quadratic (cuadrática x^2) bezier</h3>
+    <p>Para generar un cuarto de circunferencia hace falta una curva cúbica (x^3)</p>
+    <h4>EJ-1</h4>
+    <svg id="svg3" viewBox="0 0 200.5 200.5">
+        <rect width="100%" height="100%" fill="url(#grid)" />
+        <path d="
+                    m 10 10
+                    Q 190 10 190 190
+                "
+              stroke="black"
+              stroke-width="5"
+              fill="none"        
+        />
+        <path d="
+                    m 10 10
+                    a 180 180
+                    0
+                    0
+                    1
+                    180 180
+                "
+              stroke="red"
+              stroke-width="2"
+              fill="none"        
+        />
+    </svg>
+    <h4>EJ-2</h4>
+    <p>La segunda curva se refleja</p>
+    <svg id="svg3" viewBox="0 0 200.5 200.5">
+        <rect width="100%" height="100%" fill="url(#grid)" />
+        <path d="
+                    m 0 100
+                    q 50 -50 100 0
+                    t 100 0
+                "
+              stroke="black"
+              stroke-width="5"
+              fill="none"        
+        />
+    </svg>
+    <h4>EJ-3</h4>
+    <p>La segunda curva se refleja</p>
+    <svg id="svg3" viewBox="0 0 200.5 200.5">
+        <rect width="100%" height="100%" fill="url(#grid)" />
+        <path d="
+                    m 0 100
+                    q 30 -20 50 0
+                    t 50 0
+                    t 50 0
+                    t 50 0
+                    v -100
+                    h -200
+                    z
+                "
+              stroke="none"
+              stroke-width="5"
+              fill="red"
+        />
+    </svg>
+    <h3>Cubic bezier</h3>
+    <h4>EJ-1</h4>
+    <svg id="svg3" viewBox="0 0 200.5 200.5">
+        <rect width="100%" height="100%" fill="url(#grid)" />
+        <path d="
+                    m 10 10
+                    c 180 0
+                      180 0
+                      180 180
+                "
+              stroke="black"
+              stroke-width="5"
+              fill="none "
         />
     </svg>
 </body>
